@@ -1,0 +1,51 @@
+/*agreagr tipo grafia*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+*{
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width:90%;
+    max-width: 1350px;
+    margin: 4% auto;
+    border-radius: 50px;
+    border: 5px solid #746d0b;
+    background: rgba(114, 108, 83, 0.532);
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+}
+h1{
+    color: #998f06;
+    font-size: 60px;
+}
+
+p{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+button{
+    background: transparent;
+    border-radius: 20px;
+    border:  2px solid #746d0b;
+    padding: 12px 30px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+button:hover{
+    background: #461220ac;
+    color: #ffffffb0;
+    border: 2px solid #0000005d;
+    border-radius: 20px;
+}
